@@ -15,7 +15,7 @@ include 'includes/header.php';
     <div class="col-md-4">
         <div class="card h-100">
             <div class="card-body">
-                <h3 class="card-title h4 mb-3">News Articles</h3>
+                <h2 class="card-title h4 mb-3">News Articles</h2>
                 <p class="card-text text-muted">Examples of long-form news journalism. Tests for clarity, voice, and reading level.</p>
                 <div class="d-grid gap-2">
                     <a href="/news-good-1.php" class="btn btn-outline-success">Good Example 1 (Clear)</a>
@@ -31,7 +31,7 @@ include 'includes/header.php';
     <div class="col-md-4">
         <div class="card h-100">
             <div class="card-body">
-                <h3 class="card-title h4 mb-3">Product Pages</h3>
+                <h2 class="card-title h4 mb-3">Product Pages</h2>
                 <p class="card-text text-muted">E-commerce descriptions. Tests for weasel words, intensifiers, and cliches.</p>
                 <div class="d-grid gap-2">
                     <a href="/product-good-1.php" class="btn btn-outline-success">Good Example 1 (Engaging)</a>
@@ -47,7 +47,7 @@ include 'includes/header.php';
     <div class="col-md-4">
         <div class="card h-100">
             <div class="card-body">
-                <h3 class="card-title h4 mb-3">Blog Posts</h3>
+                <h2 class="card-title h4 mb-3">Blog Posts</h2>
                 <p class="card-text text-muted">Informal blog content. Tests for profanity, language mismatch, and inclusivity.</p>
                 <div class="d-grid gap-2">
                     <a href="/blog-good-1.php" class="btn btn-outline-success">Good Example 1 (Approachable)</a>
@@ -63,7 +63,7 @@ include 'includes/header.php';
     <div class="col-md-4">
         <div class="card h-100">
             <div class="card-body">
-                <h3 class="card-title h4 mb-3">About Us Pages</h3>
+                <h2 class="card-title h4 mb-3">About Us Pages</h2>
                 <p class="card-text text-muted">Corporate messaging. Tests for core keyword resonance and synonym expansion.</p>
                 <div class="d-grid gap-2">
                     <a href="/vision.php" class="btn btn-outline-primary">Our Vision (Core Keywords)</a>
