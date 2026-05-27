@@ -3,7 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= isset($pageTitle) ? htmlspecialchars($pageTitle) . ' | Content Testbed' : 'Content Testbed' ?></title>
+    <?php
+    $siteName = 'Content Testbed';
+    $metaTitle = isset($pageTitle) ? htmlspecialchars($pageTitle) . ' | ' . $siteName : $siteName;
+    $metaDesc = isset($pageDescription) ? htmlspecialchars($pageDescription) : 'A modular environment for testing content rules, readability heuristics, and accessibility.';
+    $metaUrl = 'https://content-testbed.andrewwestley.co.uk' . htmlspecialchars($_SERVER['REQUEST_URI'] ?? '');
+    $metaImage = isset($pageImage) ? htmlspecialchars($pageImage) : 'https://placehold.co/1200x630/4F46E5/ffffff?text=Content+Testbed';
+    ?>
+    <title><?= $metaTitle ?></title>
+    <meta name="description" content="<?= $metaDesc ?>">
+    
+    <!-- OpenGraph -->
+    <meta property="og:title" content="<?= $metaTitle ?>">
+    <meta property="og:description" content="<?= $metaDesc ?>">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?= $metaUrl ?>">
+    <meta property="og:image" content="<?= $metaImage ?>">
+    <meta property="og:site_name" content="<?= $siteName ?>">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?= $metaTitle ?>">
+    <meta name="twitter:description" content="<?= $metaDesc ?>">
+    <meta name="twitter:image" content="<?= $metaImage ?>">
+
+    <!-- Favicon & Web App Manifest -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4F46E5">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
