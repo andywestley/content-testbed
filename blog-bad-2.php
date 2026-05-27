@@ -7,7 +7,7 @@ include 'includes/header.php';
     <div class="col-lg-8">
         <div class="bad-content-notice">
             <h4>Intended Content Violations:</h4>
-            <p>Language mismatch (Spanish content on an English page) and severe word overuse (repeating "coffee").</p>
+            <p>Language mismatch (Spanish content on an English page) and severe word overuse (repeating "coffee" continuously over a long text).</p>
         </div>
     </div>
 </div>
@@ -22,14 +22,16 @@ include 'includes/header.php';
         
         <div itemprop="articleBody" class="fs-5">
             <!-- Bad Practice: Spanish text in <html lang="en"> -->
-            <p>La semana pasada viajé a España para visitar a mi familia. El clima estaba perfecto, muy soleado y cálido. Caminamos por el parque del Retiro y comimos tapas deliciosas en la Plaza Mayor.</p>
-            <p>Me encantó la arquitectura de la ciudad y la amabilidad de la gente. Recomiendo mucho visitar Madrid si tienes la oportunidad de viajar a Europa.</p>
+            <p>La semana pasada viajé a España para visitar a mi familia. El clima estaba perfecto, muy soleado y cálido. Caminamos por el parque del Retiro y comimos tapas deliciosas en la Plaza Mayor. Madrid es una ciudad increíble con mucha historia y cultura en cada esquina.</p>
+            <p>Me encantó la arquitectura de la ciudad y la amabilidad de la gente. Visitamos el Museo del Prado y vimos obras de arte impresionantes. Recomiendo mucho visitar Madrid si tienes la oportunidad de viajar a Europa. Es una experiencia inolvidable que todos deberían disfrutar.</p>
             
             <hr class="my-4">
             
             <!-- Bad Practice: Word overuse -->
             <h2 class="h4">Morning Thoughts</h2>
             <p>Coffee is the best drink. I drink coffee every morning. When I wake up, I immediately want coffee. Coffee makes me feel awake. Without coffee, I am tired. I love the smell of coffee. The taste of coffee is amazing. I usually buy coffee at the coffee shop near my house, because their coffee is the freshest coffee in town. More people should drink coffee.</p>
+            <p>Sometimes I make coffee at home. My home coffee is also good coffee. I have a special coffee machine just for making coffee. Coffee beans are very important for making good coffee. I buy expensive coffee beans for my coffee. When my friends visit, we drink coffee together. We talk about coffee while we drink our coffee.</p>
+            <p>In the afternoon, I drink more coffee. Coffee helps me work. Coffee is my favorite beverage. Coffee is life. I will never stop drinking coffee.</p>
         </div>
     </div>
 </div>

@@ -13,10 +13,11 @@ include 'includes/header.php';
             </div>
             
             <div itemprop="articleBody" class="fs-5">
-                <p>The city council opened a new public park downtown today. Mayor Smith cut the ribbon at noon. Hundreds of people attended the event.</p>
-                <p>The park features a large playground, two dog areas, and a walking trail. Families brought picnics to celebrate the warm weather. Local bands played music all afternoon.</p>
-                <p>"We worked hard to finish this project early," the mayor said. "Now, everyone can enjoy this green space."</p>
-                <p>City workers planted fifty trees last month. They also installed benches and water fountains. The city hopes the park will bring the community together.</p>
+                <p>The city council opened a new public park downtown today. Mayor Smith cut the ribbon at noon. Hundreds of people attended the event, enjoying the sunshine and free food provided by local vendors.</p>
+                <p>The park features a large playground, two dog areas, and a walking trail. Families brought picnics to celebrate the warm weather. Local bands played music all afternoon, creating a festive atmosphere for everyone.</p>
+                <p>"We worked hard to finish this project early," the mayor said. "Now, everyone can enjoy this green space. It is a great day for our city."</p>
+                <p>City workers planted fifty trees last month. They also installed benches, water fountains, and solar-powered lights. The city hopes the park will bring the community together and encourage outdoor activities.</p>
+                <p>The park will remain open every day from sunrise to sunset. Officials ask visitors to keep dogs on leashes outside the designated dog areas and to clean up their trash before leaving.</p>
             </div>
         </div>
     </div>
