@@ -58,6 +58,21 @@ include 'includes/header.php';
             </div>
         </div>
     </div>
+
+    <!-- About Us Section -->
+    <div class="col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h3 class="card-title h4 mb-3">About Us Pages</h3>
+                <p class="card-text text-muted">Corporate messaging. Tests for core keyword resonance and synonym expansion.</p>
+                <div class="d-grid gap-2">
+                    <a href="/vision.php" class="btn btn-outline-primary">Our Vision (Core Keywords)</a>
+                    <a href="/culture.php" class="btn btn-outline-primary">Our Culture (Synonyms)</a>
+                    <a href="/history.php" class="btn btn-outline-secondary mt-2">Our History (Zero Resonance)</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php include 'includes/footer.php'; ?>
