@@ -66,7 +66,7 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://example.com/blog-bad-2.php</loc>
+        <loc>https://content-testbed.andrewwestley.co.uk/blog-bad-2.php</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
