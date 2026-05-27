@@ -7,6 +7,7 @@ include 'includes/header.php';
     <div class="col-12">
         <h1 class="display-4 fw-bold mb-3">Content Scanner Testbed</h1>
         <p class="lead text-muted">A modular environment for testing content rules, readability heuristics, and accessibility.</p>
+        <a href="/assets/values.json" download class="btn btn-primary mt-2">Download Core Values JSON</a>
     </div>
 </div>
 
