@@ -21,8 +21,8 @@ body {
   color: #F9FAFB !important;
 }
 
-.nav-link:hover {
-  color: var(--primary-color) !important;
+.nav-link:hover, .nav-link:focus, .nav-link.show {
+  color: #A5B4FC !important; /* Lighter indigo for WCAG 4.5:1 contrast on #111827 */
 }
 
 .disclaimer-banner {
