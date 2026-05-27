@@ -14,6 +14,7 @@
     <link href="/assets/css/style.css" rel="stylesheet">
 </head>
 <body>
+    <header>
     <div class="disclaimer-banner">
         ⚠️ NOTICE: This is a non-functional testbed site. Any bad content, including poor readability, mild profanity, or non-inclusive language, is intentional for demonstration purposes.
     </div>
@@ -79,4 +80,5 @@
             </div>
         </div>
     </nav>
+    </header>
     <main class="container">
