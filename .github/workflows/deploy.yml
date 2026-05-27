@@ -1,0 +1,23 @@
+name: Deploy via SSH/Rsync
+
+on:
+  push:
+    branches:
+      - main # Change this to 'master' if that is your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Deploy to Server via Rsync
+      uses: easingthemes/ssh-deploy@v5
+      with:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        REMOTE_HOST: ${{ secrets.SERVER_HOST }}
+        REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
+        TARGET: ${{ secrets.SERVER_TARGET_DIR }}
+        EXCLUDE: "/.git/, /.github/, /README.md"
