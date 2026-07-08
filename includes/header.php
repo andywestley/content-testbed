@@ -11,6 +11,34 @@
     $metaImage = isset($pageImage) ? htmlspecialchars($pageImage) : 'https://placehold.co/1200x630/4F46E5/ffffff?text=Content+Testbed';
     ?>
     <title><?= $metaTitle ?></title>
+    <!-- Silktide/GTM Consent pre-config -->
+
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+    'analytics_storage': localStorage.getItem('stcm.consent.analytics') === 'true' ? 'granted' : 'denied',
+    'ad_storage': localStorage.getItem('stcm.consent.marketing') === 'true' ? 'granted' : 'denied',
+    'ad_user_data': localStorage.getItem('stcm.consent.marketing') === 'true' ? 'granted' : 'denied',
+    'ad_personalization': localStorage.getItem('stcm.consent.marketing') === 'true' ? 'granted' : 'denied',
+    'wait_for_update': 500
+    });
+    </script>
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MZMJC7FR');</script>
+    <!-- End Google Tag Manager -->
+
+
+
+
+
+
     <meta name="description" content="<?= $metaDesc ?>">
     
     <!-- OpenGraph -->
@@ -41,6 +69,12 @@
     <link href="/assets/css/style.css?v=2" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZMJC7FR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <header>
     <div class="disclaimer-banner">
         ⚠️ NOTICE: This is a non-functional testbed site. Any bad content, including poor readability, mild profanity, or non-inclusive language, is intentional for demonstration purposes.
