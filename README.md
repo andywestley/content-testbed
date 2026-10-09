@@ -1,3 +1,6 @@
+> [!NOTE]
+> **This standalone repository is archived and now actively maintained as part of the unified [audit-testbeds](https://github.com/andywestley/audit-testbeds) monorepo.**
+
 # Content Scanner Testbed
 
 This repository contains a simple, modular PHP testbed website. It is specifically designed to demonstrate both good and bad content practices for the **Content Insights and Brand Values scanning engines**. 
